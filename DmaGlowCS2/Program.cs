@@ -6,9 +6,9 @@ Memory.init("cs2.exe", "client.dll");
 
 
 
-UInt64 dwEntityList = 0x18C7F98;
+UInt64 dwEntityList = 0x19A3328;
 
-UInt64 m_hPlayerPawn = 0x7E4;
+UInt64 m_hPlayerPawn = 0x7DC;
 UInt64 m_entitySpottedState = 0x2278;
 UInt64 m_bSpotted = 0x8;
 
