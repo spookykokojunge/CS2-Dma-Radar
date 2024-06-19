@@ -7,3 +7,8 @@ Just update the Offsets in program.cs file
 
 Image:
 https://imgur.com/a/WOwU0iy
+
+
+Required dlls:
+Vmm.dll
+leechcore.dll
