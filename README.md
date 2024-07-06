@@ -4,7 +4,7 @@ This is a simple cs2 dma cheat that has a simple glow and radar
 
 
 # Features
-Glow
+Glow,
 Radar
 
 # Read me
