@@ -12,7 +12,7 @@ To turn on/off the features navigate to line 17/18 in Examople/main.cpp and chan
 i havent tested glow that much and also dont know if it gets u banned ore not so use at own risk!
 
 
-# compile
+# Compile
 Download the project and navigate into the Example project change the Project to Release if it isnt already set and also set it to x64 then press compile 
 and navigate into the build folder in there you need to drag the following dlls "leechcore,vmm,FTD3XX.dll" and just then just run the Program and have fun!
 
