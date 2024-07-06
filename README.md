@@ -1,41 +1,22 @@
-# DMALibrary
-Simple but extensive library for DMA users
+# CS2DMACheat
+This is a simple cs2 dma cheat that has a simple glow and radar
 
-Supports
-- Sig Scanning
-- Read Memory
-- Write Memory
-- Scatter Read Memory
-- Scatter Write Memory
-- Dumping Physical Memory
-- Dumping Memory
-- Fix CR3
-- Target Computer Keyboard
-- Getting PID & Base Address
-- Code Cave Finder
-- Function Caller
-- Syscalling kernel functions
-- Utilities (Get Import, Get Export, Get Base Size ect)
-- Clean & Good documented code.
 
-## Please read!
 
-The program expects you to have the dlls FTD3XX.dll, leechcore.dll and vmm.dll (download them from your DMA supplier) at the root directory when shipping the program.
+# Features
+Glow
+Radar
 
-If you're making use of the CR3 Fix you requires additional .dlls as mentioned in the source.
-Using CR3 fix requires you to have symsrv.dll, dbghelp.dll and info.db
-You can find all these also in the compiled version of ulfrisk.
+#Read me
+To turn on/off the features navigate to line 17/18 in Examople/main.cpp and change it to true to turn on a feature and to false to turn it off.
+i havent tested glow that much and also dont know if it gets u banned ore not so use at own risk!
 
-The project requires the leechcore.lib and vmm.lib libraries in the libs/ folder. I did not add the precompiled libraries for security purposes. 
-You can get the files from 
-https://github.com/ufrisk/LeechCore
-and
-https://github.com/ufrisk/MemProcFS/tree/master/vmm
 
-and compiled from if you are lazy.
-https://github.com/ufrisk/MemProcFS/tree/master/includes/lib32
+#compile
+Download the project and navigate into the Example project change the Project to Release if it isnt already set and also set it to x64 then press compile 
+and navigate into the build folder in there the dlls should already be and just run the Program
 
-Also special thanks to ufrisk for the libraries i used in this project.
 
-## License
-License This DMALibrary is open-source and licensed under the MIT License. Feel free to use, modify, and distribute it in your projects.
+#Contact
+
+You can contact me on discord: Spookyisnice ore just open a ticket on this repo also dont forget to give this project a start!
