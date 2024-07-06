@@ -8,7 +8,7 @@ Glow
 Radar
 
 # Read me
-To turn on/off the features navigate to line 17/18 in Examople/main.cpp and change it to true to turn on a feature and to false to turn it off.
+To turn on/off the features navigate to line 17/18 in Example/main.cpp and change it to true to turn on a feature and to false to turn it off.
 i havent tested glow that much and also dont know if it gets u banned ore not so use at own risk!
 
 
