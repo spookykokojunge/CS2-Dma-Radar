@@ -1,7 +1,8 @@
 # CS2DMACheat
 This is a simple cs2 dma cheat that has a simple glow and radar
 
-
+# NOTE 
+Glow can get you banned so i wouldt use it!
 
 # Features
 Glow,
