@@ -15,7 +15,6 @@ int main()
 
     //change this to false/true to turn on/off the features
     bool Spotted = true;
-    bool Glow = true;
 
     //offsets
     uint64_t dwEntityList = 0x19BDD78;
@@ -26,12 +25,6 @@ int main()
     uint64_t m_lifeState = 0x328;
     uint64_t dwLocalPlayerPawn = 0x1823A08;
     uint64_t m_iTeamNum = 0x3C3;
-
-    //offsets for glow
-    uint64_t m_Glow = 0xBA0;
-    uint64_t m_glowColorOverride = 0x40;
-    uint64_t m_bGlowing = 0x51;
-
 
     while (true)
     {
@@ -105,17 +98,6 @@ int main()
                 }
             }
 
-
-
-            uint64_t GlowColorOverride = currentPawn + m_Glow + m_glowColorOverride;
-            uint64_t GlowFunction = currentPawn + m_Glow + m_bGlowing;
-
-
-            if (Glow == true)
-            {
-                mem.Write<uint64_t>(GlowColorOverride, 0x800000FF);
-                mem.Write<uint64_t>(GlowFunction, 1);
-            }
 
         }
         std::this_thread::sleep_for(std::chrono::milliseconds(100));
