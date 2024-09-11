@@ -5,7 +5,6 @@ This is a simple cs2 dma cheat that has a simple glow and radar
 Glow can get you banned so i wouldt use it!
 
 # Features
-Glow,
 Radar
 
 # Read me
