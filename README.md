@@ -16,4 +16,4 @@ and navigate into the build folder in there you need to drag the following dlls 
 
 # Contact
 
-You can contact me on discord: Spookyisnice ore just open a ticket on this repo also dont forget to give this project a start!
+You can contact me on discord: Spookyisnice or just open a ticket on this repo also dont forget to give this project a start!
